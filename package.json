@@ -2,17 +2,30 @@
   "name": "widitrade",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "yarn lint:css & yarn lint:js",
+    "lint:js": "eslint \"src/**/*.{ts,tsx,js,vue}\"",
+    "lint:css": "stylelint \"src/**/*.{vue,css}\""
   },
   "dependencies": {
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@csstools/postcss-nesting-experimental": "^1.1.1",
     "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.1.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^30.0.1",
     "vite": "^4.1.0"
   }
 }
