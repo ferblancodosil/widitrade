@@ -1,0 +1,63 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* Color */
+  --ash-color: #353744;
+  --body-color: #4e4b66;
+  --label-color: #6e7191;
+  --placeholder-color: #a0a3bd;
+  --line-color: #e3e4ec;
+  --background-color: #f8f8fc;
+  --accent-color: #22a2a2;
+  --secondary-color: #1b8080;
+  --accent-color: #4fc2c2;
+  --gradient-color: #624af2-50ddc3;
+  --white-color: #fff;
+
+
+  /* Type scale */
+
+  --font-size-display: 2.5rem; /* 40px */
+  --font-size-huge: 2rem; /* 32px */
+  --font-size-large: 1.5rem; /* 24px */
+  --font-size-medium: 1.25rem; /* 20px */
+  --font-size-normal: 1rem; /* 16px */
+  --font-size-small: 0.75rem; /* 12px */
+
+  /* Line height */
+
+  --line-height-huge: 2.25rem; /* 36px */
+  --line-height-large: 2rem; /* 32px */
+  --line-height-medium: 1.5rem; /* 24px */
+  --line-height-normal: 1rem; /* 16px */
+  --line-height-small: 0.75rem; /* 12px */
+
+  /* Font weights */
+
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Space units */
+
+  --spacing-huge: 5.5rem; /* 88px */
+  --spacing-xxxlarge: 5rem; /* 80px */
+  --spacing-xxlarge: 4.5rem; /* 72px */
+  --spacing-xlarge: 4rem; /* 64px */
+  --spacing-large: 3.5rem; /* 56px */
+  --spacing-medium: 3rem; /* 48px */
+  --spacing-regular: 2.5rem; /* 40px */
+  --spacing-small: 2rem; /* 32px */
+  --spacing-xsmall: 1.5rem; /* 24px */
+  --spacing-xxsmall: 1rem; /* 16px */
+  --spacing-xxxsmall: 0.5rem; /* 8px */
+  --spacing-tiny: 0.25rem; /* 4px */
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-size-adjust: 100%;
+  background-color: var(--background-color);
+}
