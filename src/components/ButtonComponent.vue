@@ -20,7 +20,7 @@ defineProps({
   width: 100%;
   height: var(--spacing-medium);
   background: var(--primary-color);
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-xlarge);
   border: 0;
   color: var(--white-color);
   font-family: "Inter";
