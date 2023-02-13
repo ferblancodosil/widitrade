@@ -1,6 +1,6 @@
 # Widitrade Login
 
-## Prueba técnica Frontend (1/2)
+## Ejercicio Frontend
 
 * Usa el framework de frontend con el que más cómodo/a te sientas. Es preferible utilizar Vue y Nuxt, pero puedes usar React o Angular y complementar con cualquier otra librería.
 * Es necesario NO usar un framework de CSS como Bootstrap o Tailwind. Sí puedes usar SASS o cualquier preprocesador de CSS.
