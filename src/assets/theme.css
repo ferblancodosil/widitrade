@@ -52,7 +52,7 @@
   --spacing-xlarge: 4rem; /* 64px */
   --spacing-large: 3.5rem; /* 56px */
   --spacing-medium: 3rem; /* 48px */
-  --spacing-regular: 2.5rem; /* 40px */
+  --spacing-regular: 2.625rem; /* 42px */
   --spacing-small: 2rem; /* 32px */
   --spacing-xsmall: 1.5rem; /* 24px */
   --spacing-xxsmall: 1rem; /* 16px */
@@ -62,7 +62,7 @@
   /* Border radius */
 
   --border-radius-circle: 50%;
-  --border-radius-large: 1rem; /* 20px */
+  --border-radius-large: 3.75rem; /* 20px */
   --border-radius-medium: 0.5rem; /* 8px */
   --border-radius-regular: 0.375rem; /* 6px */
   --border-radius-small: 0.13rem; /* 2px */

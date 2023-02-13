@@ -7,6 +7,7 @@
       :type="showPassword ? 'text' : isPassword ? 'password' : 'text'"
       :placeholder="placeholder"
       :id="label"
+      :required="required"
     />
     <img
       v-if="isPassword"
@@ -34,6 +35,11 @@ defineProps({
   placeholder: {
     type: String,
     required: false,
+  },
+  required: {
+    type: Boolean,
+    required: false,
+    default: false,
   },
 });
 const showPassword = ref(false);
