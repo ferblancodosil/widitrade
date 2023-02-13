@@ -54,12 +54,6 @@ const redirectHome = ({ username, password }) => {
     grid-template-columns: 1fr 1fr;
     .wrap-login {
       padding: 0 20%;
-      /*
-
-    border-radius: var(--border-radius-large);
-    padding: var(--spacing-xxlarge);
-    margin: 12.25rem 5.75rem;
-    */
     }
 
     .wrap-image {
